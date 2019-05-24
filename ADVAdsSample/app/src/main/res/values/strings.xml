@@ -1,0 +1,12 @@
+<resources>
+    <string name="ADVADS_PARTNER_ID">7d95de69cfc7cc03c3a05b4fde9662b8</string>
+    <string name="ADVADS_BUNDLE_ID">com.pandora.android</string>
+    <string name="ADVADS_CAT">IAB1-6</string>
+    <string name="SERVER_URL">http://nep.advangelists.com</string>
+    <string name="SERVER_PATH">/xp/get?pubid=7d95de69cfc7cc03c3a05b4fde9662b8</string>
+    <string name="VPAID_SOURCE_URL">https://s3.amazonaws.com/chalkiosapp/vpaid/sdk_vpaid_html.html</string>
+    <string name="ADVADS_DEBUG_URL">https://nep.advangelists.com/xp</string>
+
+    <string name="app_name">ADVAdsSample</string>
+    <string name="title_activity_settings">Settings</string>
+</resources>

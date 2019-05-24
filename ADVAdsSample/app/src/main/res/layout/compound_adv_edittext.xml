@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent" android:layout_height="71dp">
+
+    <ImageView
+        android:src="@android:color/transparent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="37dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="11dp"
+        style="@style/TextFieldSmallStyle"
+        android:textColor="#959697"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:text=""
+        android:paddingTop="21dp"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_toLeftOf="@+id/button"
+        android:id="@+id/editText"
+        style="@style/TextFieldLargeStyle"
+        android:textColorHint="#959697"
+        android:background="#00000000"
+        />
+
+    <TextView
+        android:text="Optional"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        style="@style/TextFieldLargeStyle"
+        android:textColor="#C6C8CA"
+        android:id="@+id/optionalTextView" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="37dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/button"
+        android:drawableTop="@drawable/clear"
+        android:padding="2dp"
+        android:background="#00000000"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="16dp"
+        android:background="#EAEAEA"
+        android:id="@+id/unhighlightIndicatorView"
+        android:layout_alignParentBottom="true"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="16dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/highlightIndicatorView"
+        android:layout_alignParentBottom="true"
+        />
+</merge>
